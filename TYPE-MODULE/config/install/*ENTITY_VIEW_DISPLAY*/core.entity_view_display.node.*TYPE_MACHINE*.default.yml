@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - field.field.node.*TYPE_MACHINE*.field_*FIELDS*
+        - node.type.*TYPE_MACHINE*
+    module:
+        - field_group
+        - image
+        - text
+        - user
+id: node.*TYPE_MACHINE*.default
+targetEntityType: node
+bundle: *TYPE_MACHINE*
+mode: default
+content:
+    links:
+      weight: *WEIGHT*
+hidden:
+  field_*FIELDS*: true

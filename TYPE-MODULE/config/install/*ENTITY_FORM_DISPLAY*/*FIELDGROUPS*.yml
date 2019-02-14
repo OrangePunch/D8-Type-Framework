@@ -1,0 +1,27 @@
+      group_*GROUP_MACHINE_NAME*:
+        children:
+          - field_*FIELDS_MACHINE_NAME*
+        parent_name: 'group_*PARENT_GROUP_MACHINE_NAME*'
+        weight: *WEIGHT*
+        format_type: tab
+        format_settings:
+          id: ''
+          classes: ''
+          direction: vertical
+          formatter: closed
+          description: ''
+          required_fields: true
+        label: *GROUP_HUMAN_NAME*
+        region: content
+      group_*PARENT_GROUP_MACHINE_NAME*:
+            children:
+              - group_*GROUPS_MACHINE_NAME*
+            parent_name: ''
+            weight: *WEIGHT*
+            format_type: tabs
+            format_settings:
+              id: ''
+              classes: ''
+              direction: vertical
+            label: '*PARENT_GROUP_HUMAN_NAME*'
+            region: content

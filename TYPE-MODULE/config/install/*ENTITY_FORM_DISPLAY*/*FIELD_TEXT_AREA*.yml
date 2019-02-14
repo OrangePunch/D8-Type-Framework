@@ -1,0 +1,8 @@
+    field_*FIELD_TEXT_AREA_MACHINE*:
+      weight: *WEIGHT*
+      settings:
+        rows: 5
+        placeholder: ''
+      third_party_settings: {  }
+      type: text_textarea
+      region: content

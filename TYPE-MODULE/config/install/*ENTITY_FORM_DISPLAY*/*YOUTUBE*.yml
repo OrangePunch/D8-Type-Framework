@@ -1,0 +1,6 @@
+    field_*FIELD_YOUTUBE_MACHINE*:
+      weight: *WEIGHT*
+      settings: {  }
+      third_party_settings: {  }
+      type: youtube
+      region: content

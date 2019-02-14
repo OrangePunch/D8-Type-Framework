@@ -1,0 +1,6 @@
+    field_*FIELD_OPTIONS_SELECT_MACHINE*:
+      weight: *WEIGHT*
+      settings: {  }
+      third_party_settings: {  }
+      type: options_select
+      region: content

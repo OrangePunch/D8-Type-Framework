@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+*DEPENDENCIES*
+third_party_settings:
+    field_group:
+*FIELDGROUPS*
+id: node.*TYPE_MACHINE*.default
+targetEntityType: node
+bundle: *TYPE_MACHINE*
+mode: default
+content:
+*FIELDS*
+    links:
+        weight: *WEIGHT*
+hidden: {  }

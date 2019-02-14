@@ -1,0 +1,6 @@
+name: Content Type Main Page
+description: Provides Main Page Content Type and Fields
+package: Custom Content Types
+type: module
+version: beta1
+core: 8.x

@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+    config:
+        - core.entity_view_mode.node.teaser
+        - field.field.node.*TYPE_MACHINE*.field_*FIELDS*
+        - node.type.*TYPE_MACHINE*
+    module:
+        - text
+        - user
+id: node.*TYPE_MACHINE*.teaser
+targetEntityType: node
+bundle: *TYPE_MACHINE*
+mode: teaser
+content:
+    field_content_one:
+      weight: 2
+      label: above
+      settings: {  }
+      third_party_settings: {  }
+      type: text_default
+      region: content
+    links:
+        weight: *WEIGHT*
+hidden: {  }

@@ -1,0 +1,6 @@
+name: *FIELD_STORAGE_MODULE_NAME*
+description: Provides Storage for *SPECIFIC* Field Types.
+package: Custom Content Types
+type: module
+version: VERSION
+core: 8.x

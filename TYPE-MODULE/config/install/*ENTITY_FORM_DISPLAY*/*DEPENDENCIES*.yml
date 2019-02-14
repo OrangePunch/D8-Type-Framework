@@ -1,0 +1,5 @@
+    config:
+        - field.field.node.*TYPE_MACHINE*.field_*FIELDS_MACHINE*
+        - node.type.*TYPE_MACHINE*
+    module:
+        - *MODULES*

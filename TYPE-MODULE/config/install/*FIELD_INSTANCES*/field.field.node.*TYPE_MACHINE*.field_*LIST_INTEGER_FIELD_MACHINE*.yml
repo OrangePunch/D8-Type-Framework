@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_*LIST_INTEGER_FIELD_MACHINE*
+    - node.type.*TYPE_MACHINE*
+  module:
+    - options
+id: node.main_page.field_*LIST_INTEGER_FIELD_MACHINE*
+field_name: field_*LIST_INTEGER_FIELD_MACHINE*
+entity_type: node
+bundle: *TYPE_MACHINE*
+label: '*LIST_INTEGER_FIELD_HUMAN*'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

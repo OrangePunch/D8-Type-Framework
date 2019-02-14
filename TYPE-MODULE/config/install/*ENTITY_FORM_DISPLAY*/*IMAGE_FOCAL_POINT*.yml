@@ -1,0 +1,10 @@
+    field_*IMAGE_FOCAL_POINT_MACHINE*:
+      weight: *WEIGHT*
+      settings:
+        preview_image_style: large
+        progress_indicator: throbber
+        preview_link: true
+        offsets: '50,50'
+      third_party_settings: {  }
+      type: image_focal_point
+      region: content
